@@ -4,7 +4,7 @@ public class StaticNestedClassDemo {
 
 	static private final int regestrationId = 1001;
 	int grade = 9;
-	// Method Local Inner Class
+	
 	static class Student {
 		int studentId = 101;
 

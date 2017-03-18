@@ -6,7 +6,7 @@ abstract class Laptop {
 		System.out.println("We can have constructor in abstract class");
 	}
 	
-	// we should have at least one abstract method in an abstract
+	//  it may contain zero or more abstract methods
 	abstract int getLaptopPrice();
 	
 	public String getLaptopConfig(){
