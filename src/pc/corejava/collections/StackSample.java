@@ -17,9 +17,10 @@ public class StackSample{
    System.out.println("Size of the stack is : " + stack.size());
    
    System.out.println("Pop - Removes and returns the object from top of the stack : " + stack.pop());
-   System.out.println("Pop - Removes and returns the object from top of the stack : " + stack.pop());
+   System.out.println("Stack elements after pop operation : " + stack);
 
-   System.out.println("Stack elements are" + stack);
+   System.out.println("Peek - Looks at the object at the top of this stack without removing it from the stack : " + stack.peek());
+   System.out.println("Stack elements after peek operation : " + stack);
    
    System.out.println("After Pop Operation the size of the stack is : " + stack.size());
    }
